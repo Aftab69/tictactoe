@@ -101,36 +101,52 @@ function App() {
 
     if(image1 === cross  && image2 === cross && image3 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image1 === circle  && image2 === circle && image3 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image4 === cross  && image5 === cross && image6 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image4 === circle  && image5 === circle && image6 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image7 === cross  && image8 === cross && image9 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image7 === circle  && image8 === circle && image9 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image1 === cross  && image4 === cross && image7 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image1 === circle  && image4 === circle && image7 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image2 === cross  && image5 === cross && image8 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image2 === circle  && image5 === circle && image8 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image3 === cross  && image6 === cross && image9 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image3 === circle  && image6 === circle && image9 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image1 === cross  && image5 === cross && image9 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image1 === circle && image5 === circle && image9 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image3 === cross  && image5 === cross && image7 === cross){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     } else if(image3 === circle  && image5 === circle && image7 === circle){
       setTimeout(function(){ alert("YOU WIN !!!"); }, 100);
+      setTimeout(function(){ window.location.reload(); }, 200);
     }
 
   
