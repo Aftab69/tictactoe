@@ -35,6 +35,8 @@
     cursor: pointer;
 }
 .box > img{
-    width: 5.25em;
-    height: 5.25em;
+    width: 8.25em;
+    height: 8.25em;
+    box-sizing: border-box;
+    padding: 1.5em;
 }
