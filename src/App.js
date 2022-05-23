@@ -15,126 +15,125 @@ function App() {
   const[image8,setImage8] = useState(white);
   const[image9,setImage9] = useState(white);
 
-  const[toggleplayer, setToggleplayer] = useState(false);
+  const[toggleplayer, setToggleplayer] = useState(true);
 
     const handleClick1 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage1(cross);
-        setToggleplayer(true);
-      } else {
-        setImage1(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage1(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick2 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage2(cross);
-        setToggleplayer(true);
-      } else {
-        setImage2(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage2(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick3 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage3(cross);
-        setToggleplayer(true);
-      } else {
-        setImage3(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage3(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick4 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage4(cross);
-        setToggleplayer(true);
-      } else {
-        setImage4(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage4(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick5 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage5(cross);
-        setToggleplayer(true);
-      } else {
-        setImage5(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage5(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick6 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage6(cross);
-        setToggleplayer(true);
-      } else {
-        setImage6(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage6(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick7 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage7(cross);
-        setToggleplayer(true);
-      } else {
-        setImage7(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage7(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick8 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage8(cross);
-        setToggleplayer(true);
-      } else {
-        setImage8(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage8(circle);
+        setToggleplayer(true);
       }
     }
     const handleClick9 = () =>{
-      if(!toggleplayer){
+      if(toggleplayer){
         setImage9(cross);
-        setToggleplayer(true);
-      } else {
-        setImage9(circle);
         setToggleplayer(false);
+      } else if(!toggleplayer){
+        setImage9(circle);
+        setToggleplayer(true);
       }
     }
 
-
-    if(image1  && image2 && image3 === cross){
+    if(image1 === cross  && image2 === cross && image3 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image1  && image2 && image3 === circle){
+    } else if(image1 === circle  && image2 === circle && image3 === circle){
       window.alert("YOU WIN !!!!");
-    } else if(image4  && image5 && image6 === cross){
+    } else if(image4 === cross  && image5 === cross && image6 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image4  && image5 && image6 === circle){
+    } else if(image4 === circle  && image5 === circle && image6 === circle){
       window.alert("YOU WIN !!!!");
-    } else if(image7  && image8 && image9 === cross){
+    } else if(image7 === cross  && image8 === cross && image9 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image7  && image8 && image9 === circle){
+    } else if(image7 === circle  && image8 === circle && image9 === circle){
       window.alert("YOU WIN !!!!");
-    } else if(image1  && image4 && image7 === cross){
+    } else if(image1 === cross  && image4 === cross && image7 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image1  && image4 && image7 === circle){
+    } else if(image1 === circle  && image4 === circle && image7 === circle){
       window.alert("YOU WIN !!!!");
-    } else if(image2  && image5 && image8 === cross){
+    } else if(image2 === cross  && image5 === cross && image8 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image2  && image5 && image8 === circle){
+    } else if(image2 === circle  && image5 === circle && image8 === circle){
       window.alert("YOU WIN !!!!");
-    } else if(image3  && image6 && image9 === cross){
+    } else if(image3 === cross  && image6 === cross && image9 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image3  && image6 && image9 === circle){
+    } else if(image3 === circle  && image6 === circle && image9 === circle){
       window.alert("YOU WIN !!!!");
-    } else if(image1  && image5 && image9 === cross){
+    } else if(image1 === cross  && image5 === cross && image9 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image1  && image5 && image9 === circle){
+    } else if(image1 === circle && image5 === circle && image9 === circle){
       window.alert("YOU WIN !!!!");
-    } else if(image3  && image5 && image7 === cross){
+    } else if(image3 === cross  && image5 === cross && image7 === cross){
       window.alert("YOU WIN !!!!");
-    } else if(image3  && image5 && image7 === circle){
+    } else if(image3 === circle  && image5 === circle && image7 === circle){
       window.alert("YOU WIN !!!!");
     }
-  
 
+  
   return (
     <>
     <div className="container1">
